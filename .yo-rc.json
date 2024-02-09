@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "userdirectory",
+    "libraryId": "6a6e03ae-e72f-4558-97b2-1d6408a1967f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "userdirectory",
+    "solutionShortDescription": "userdirectory description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
