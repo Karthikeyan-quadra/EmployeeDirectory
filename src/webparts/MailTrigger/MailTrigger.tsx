@@ -25,9 +25,9 @@ export async function Requestmail(msg: any, userMail: any, displayName:any, send
             <p>Dear ${displayName},</p>
             <p>${msg}</p>
 
-            <p style="margin-top:100px; font-size:14px; margin-bottom:5px;">Thanks & Regards,</p>
-            <p style="margin-top:5px; font-size:14px;"><b>${senderName}</b> | ${senderJob}-${senderDept}</p>
-            <p style="font-size:14px;"><span style="color:#EA881A"><b>Quadrasystems.net (India)</b></span> Private Limited</p>
+            <p style="margin-top:100px; font-size:14px; margin-bottom:5px;"><b>Thanks & Regards,</b></p>
+            <p style="margin-top:5px; font-size:14px; margin-bottom:0px;"><b>${senderName} | ${senderJob} - ${senderDept}</b></p>
+            <p style="font-size:14px; margin-top:5px;"><span style="color:rgb(255,102,0);"><b>Quadrasystems.net (India)</b></span><b> Private Limited</b></p>
 
           </body>
         </html>
